@@ -1,0 +1,28 @@
+
+
+
+Object Oriented Programming Features
+    Abstaction
+    Encapsulation
+    Inheritance
+    Polymorphism
+
+    1. Inheritance (Parent and Child class) -- Keyword = extend
+    2. Encapsulation = Hide the data
+    3. Abstraction = keep the common value in one class
+    4. Polymorphism = you can create multiple implementation of single values
+
+
+    Test.
+    1. Demo class(main)
+
+    2. Animal class
+        - int age;
+        - int runSpeed;
+        - String name;
+
+        --Method
+        - move (void)
+
+        --Child class 1. Cat  2. Dog
+        reuse the method and variable from super class..

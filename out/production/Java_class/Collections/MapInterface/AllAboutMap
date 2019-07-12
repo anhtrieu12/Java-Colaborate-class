@@ -1,0 +1,30 @@
+
+
+Map Interface
+
+    1.Key and value pair ...
+
+        Map<Key, Value> nameMap = new HashMap<>();
+
+        list of Class that implemented Map interface
+        1. Hashtable: Very similar to HashMap except it's thread safe. HashTable does not allowed
+                      null value as a key.
+        2. LinkedHashMap: provide data in insertion order
+        3. HashMap: makes no guarantees of iteration order, it much faster but not thread safe
+        4. TreeMap: provide data in ascending order, however it's much slower than HashMap
+
+
+    List of methods in HashMap class and their short description.
+
+    void clear() : removes all the key-value pairs from the HashMap.
+    Object clone() : returns a shallow copy of the specified HashMap.
+    boolean containsKey(Object key) : returns true or false based on whether the specified key is found in the map or not.
+    boolean containsValue(Object Value) : Similar to containsKey() method, it looks for the specified value instead of key.
+    Object get(Object key) : returns the value for the specified key in the HashMap.
+    boolean isEmpty() : checks whether the map is empty.
+    Set keySet() : returns the Set of the all keys stored in the HashMap.
+    Object put(Key k, Value v) : Inserts key-value pair into the HashMap.
+    int size() : returns the size of the map which is equal to the number of key-value pairs stored in the HashMap.
+    Collection values() : returns a collection of all values in the map.
+    Value remove(Object key) : removes the key-value pair for the specified key.
+    void putAll(Map m) : copies all the elements of a map to the another specified map.

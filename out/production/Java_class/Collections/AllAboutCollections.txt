@@ -1,0 +1,30 @@
+
+
+Collection Framework
+
+    1.List Interface (Allow duplicate elements)
+        1.1 ArrayList (Will not preserve the insertion order)
+        1.2 LinkList (Will store insertion order)
+        1.3 Vector (thread safe)
+    2.Set Interface (Does not allow duplicate or null value)
+        2.1 HashSet
+        2.2 LinkedHashed
+        2.3 TreeSet
+    3.Queue Interface
+        3.1 PriorityQueue
+
+    - All collection class does not allow primitive data type.
+        - you must use wrapper class
+            int = Integer
+            long = Long
+            boolean = Boolean
+
+        - it is resizable array so it can hold elements we are adding.
+
+        Syntax:
+            Name of Interface or Class Name
+            < > with data types
+            = new And Class name
+
+            // E.g
+            List<String> list = new ArrayList<String>();

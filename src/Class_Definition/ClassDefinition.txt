@@ -1,0 +1,13 @@
+
+
+1.About class
+2.Constructor
+3.Static variable
+    3.1 Call static vs non-static method
+    3.2 return method object
+
+4.JAVA OOP(Object oriented Programming)
+    4.1 Inheritance
+    4.2 Encapsulation
+    4.3 Polymorphism
+    4.4 Abstraction
